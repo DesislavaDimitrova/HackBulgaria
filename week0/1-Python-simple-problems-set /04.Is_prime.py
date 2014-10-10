@@ -12,10 +12,4 @@ def is_prime(n):
                 return False    
         return True
 
-def main():
-    print(is_prime(8)) 
-
-if __name__ == '__main__':
-    main()
-
 

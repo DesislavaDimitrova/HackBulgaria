@@ -10,8 +10,3 @@ def count_consonants(str):
 				count += 1
 	return count
 
-def main():
-	print(count_consonants("Github is the second best thing that happend to programmers, after the keyboard!")) 
-
-if __name__ == '__main__':
-	main()
