@@ -1,7 +1,7 @@
 #Checking if integer is prime
+import math
 
-def is_prime(n):
-    import math   
+def is_prime(n):  
     if n < 2: 
         return False
     elif n == 2: 

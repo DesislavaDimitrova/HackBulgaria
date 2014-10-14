@@ -1,0 +1,8 @@
+#Checking if a given sequence is monotonously increasing
+
+def is_increasing(seq):
+	for i in range(1, len(seq)):
+		if seq[i - 1] >= seq[i]:
+			return False
+	return True
+
